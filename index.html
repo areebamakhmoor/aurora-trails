@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Aurora Trails creates premium, custom travel experiences for modern explorers. Discover curated destinations, luxury packages, and expert trip planning.">
+  <title>Aurora Trails | Premium Travel Experiences</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header" id="top">
+    <nav class="navbar" aria-label="Primary navigation">
+      <a class="brand" href="#top" aria-label="Aurora Trails home">
+        <span class="brand__mark">A</span>
+        <span class="brand__text">Aurora Trails</span>
+      </a>
+
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-menu" aria-label="Open navigation menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <ul class="nav-menu" id="nav-menu">
+        <li><a href="#destinations">Destinations</a></li>
+        <li><a href="#packages">Packages</a></li>
+        <li><a href="#why-us">Why Us</a></li>
+        <li><a href="#stories">Stories</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <a class="nav-cta" href="#contact">Plan a Trip</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" aria-labelledby="hero-title">
+      <div class="hero__media" aria-hidden="true"></div>
+      <div class="hero__overlay" aria-hidden="true"></div>
+      <div class="hero__content container reveal">
+        <p class="eyebrow">Luxury journeys, thoughtfully designed</p>
+        <h1 id="hero-title">Travel deeper, stay longer, remember everything.</h1>
+        <p class="hero__lead">Aurora Trails crafts private, design-led escapes across mountains, islands, cities, and quiet places that still feel undiscovered.</p>
+        <div class="hero__actions">
+          <a class="btn btn--primary" href="#packages">Explore Packages</a>
+          <a class="btn btn--ghost" href="#destinations">View Destinations</a>
+        </div>
+        <div class="hero__stats" aria-label="Company highlights">
+          <article>
+            <strong>12k+</strong>
+            <span>Curated journeys</span>
+          </article>
+          <article>
+            <strong>4.9/5</strong>
+            <span>Guest rating</span>
+          </article>
+          <article>
+            <strong>36</strong>
+            <span>Countries covered</span>
+          </article>
+        </div>
+      </div>
+      <a class="scroll-cue" href="#destinations" aria-label="Scroll to destinations">
+        <i class="fa-solid fa-arrow-down"></i>
+      </a>
+    </section>
+
+    <section class="destinations section" id="destinations" aria-labelledby="destinations-title">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Signature escapes</p>
+          <h2 id="destinations-title">Destinations with a sense of arrival.</h2>
+          <p>Choose from handpicked places that balance comfort, culture, scenery, and experiences worth slowing down for.</p>
+        </div>
+
+        <div class="destination-grid">
+          <article class="destination-card reveal">
+            <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=900&q=80" alt="A peaceful lakeside mountain resort at sunset">
+            <div class="destination-card__content">
+              <span>Alpine Retreats</span>
+              <h3>Swiss Lakeside Calm</h3>
+              <p>Slow mornings, panoramic rail rides, boutique stays, and chef-led dining beside mirror-clear water.</p>
+            </div>
+          </article>
+
+          <article class="destination-card destination-card--tall reveal">
+            <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=900&q=80" alt="Turquoise ocean waves meeting a tropical beach">
+            <div class="destination-card__content">
+              <span>Island Hideaways</span>
+              <h3>Maldives Blue Hours</h3>
+              <p>Private villas, reef adventures, candlelit sandbank dinners, and seamless seaplane transfers.</p>
+            </div>
+          </article>
+
+          <article class="destination-card reveal">
+            <img src="https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=900&q=80" alt="Modern skyline with warm city lights after sunset">
+            <div class="destination-card__content">
+              <span>Urban Luxe</span>
+              <h3>Dubai After Dark</h3>
+              <p>Skyline suites, desert dining, private yacht evenings, and premium shopping routes.</p>
+            </div>
+          </article>
+
+          <article class="destination-card reveal">
+            <img src="https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=900&q=80" alt="A winding road through dramatic green mountains">
+            <div class="destination-card__content">
+              <span>Wild Landscapes</span>
+              <h3>New Zealand Drives</h3>
+              <p>Self-drive freedom with expert routing, lodge stays, glacier walks, and cinematic viewpoints.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="packages section" id="packages" aria-labelledby="packages-title">
+      <div class="container">
+        <div class="section-heading section-heading--split reveal">
+          <div>
+            <p class="eyebrow">Travel styles</p>
+            <h2 id="packages-title">Packages made for different kinds of wonder.</h2>
+          </div>
+          <p>Every plan includes premium stays, smart pacing, local experts, airport assistance, and flexible customization.</p>
+        </div>
+
+        <div class="package-grid">
+          <article class="package-card reveal">
+            <div class="package-card__top">
+              <i class="fa-solid fa-mountain-sun"></i>
+              <span>7 Days</span>
+            </div>
+            <h3>Highland Reset</h3>
+            <p>Quiet mountain lodges, guided hikes, wellness rituals, and scenic transfers designed for deep rest.</p>
+            <ul>
+              <li>Luxury lodge stays</li>
+              <li>Private nature guide</li>
+              <li>Daily breakfast and spa credit</li>
+            </ul>
+            <div class="package-card__footer">
+              <strong>From $2,850</strong>
+              <a href="#contact" aria-label="Enquire about Highland Reset">Enquire</a>
+            </div>
+          </article>
+
+          <article class="package-card package-card--featured reveal">
+            <div class="ribbon">Most Requested</div>
+            <div class="package-card__top">
+              <i class="fa-solid fa-plane-departure"></i>
+              <span>10 Days</span>
+            </div>
+            <h3>Grand Escape</h3>
+            <p>A balanced journey through iconic cities, coastal stays, private experiences, and relaxed free time.</p>
+            <ul>
+              <li>Five-star city and beach hotels</li>
+              <li>Private transfers and concierge</li>
+              <li>Two signature dining experiences</li>
+            </ul>
+            <div class="package-card__footer">
+              <strong>From $4,200</strong>
+              <a href="#contact" aria-label="Enquire about Grand Escape">Enquire</a>
+            </div>
+          </article>
+
+          <article class="package-card reveal">
+            <div class="package-card__top">
+              <i class="fa-solid fa-compass"></i>
+              <span>12 Days</span>
+            </div>
+            <h3>Culture Collector</h3>
+            <p>Museums after hours, artisan studios, heritage walks, boutique hotels, and immersive food trails.</p>
+            <ul>
+              <li>Expert cultural hosts</li>
+              <li>Small-group workshops</li>
+              <li>Curated local dining map</li>
+            </ul>
+            <div class="package-card__footer">
+              <strong>From $3,650</strong>
+              <a href="#contact" aria-label="Enquire about Culture Collector">Enquire</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="why-us section" id="why-us" aria-labelledby="why-title">
+      <div class="container why-us__layout">
+        <div class="why-us__content reveal">
+          <p class="eyebrow">Why choose us</p>
+          <h2 id="why-title">Premium planning without the pressure.</h2>
+          <p>We combine high-touch service with practical travel intelligence, so every journey feels personal, polished, and easy to enjoy.</p>
+          <a class="btn btn--dark" href="#contact">Start Planning</a>
+        </div>
+
+        <div class="feature-list">
+          <article class="feature-item reveal">
+            <i class="fa-solid fa-route"></i>
+            <div>
+              <h3>Tailored Itineraries</h3>
+              <p>Your route, pace, hotels, and activities are built around your travel style.</p>
+            </div>
+          </article>
+          <article class="feature-item reveal">
+            <i class="fa-solid fa-user-shield"></i>
+            <div>
+              <h3>Trusted Local Network</h3>
+              <p>We work with vetted guides, drivers, hosts, and properties in every destination.</p>
+            </div>
+          </article>
+          <article class="feature-item reveal">
+            <i class="fa-solid fa-headset"></i>
+            <div>
+              <h3>Concierge Support</h3>
+              <p>Before and during your trip, a real specialist is available when plans shift.</p>
+            </div>
+          </article>
+          <article class="feature-item reveal">
+            <i class="fa-solid fa-leaf"></i>
+            <div>
+              <h3>Responsible Choices</h3>
+              <p>We prioritize locally owned stays, respectful experiences, and smarter routing.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="testimonials section" id="stories" aria-labelledby="stories-title">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Traveler stories</p>
+          <h2 id="stories-title">Guests remember how effortless it felt.</h2>
+          <p>Realistic service, elegant details, and trips that feel calm from the first conversation.</p>
+        </div>
+
+        <div class="testimonial-slider reveal" aria-roledescription="carousel">
+          <button class="slider-btn slider-btn--prev" type="button" aria-label="Show previous testimonial">
+            <i class="fa-solid fa-chevron-left"></i>
+          </button>
+          <div class="testimonial-track">
+            <article class="testimonial-card is-active">
+              <div class="stars" aria-label="5 star rating">★★★★★</div>
+              <blockquote>“Every transfer, dinner, and guided experience felt considered. It was luxurious without ever feeling over-planned.”</blockquote>
+              <div class="guest">
+                <span>NS</span>
+                <div>
+                  <strong>Nisha Sharma</strong>
+                  <small>Anniversary trip to Switzerland</small>
+                </div>
+              </div>
+            </article>
+            <article class="testimonial-card">
+              <div class="stars" aria-label="5 star rating">★★★★★</div>
+              <blockquote>“The team understood exactly when we wanted adventure and when we needed quiet. That balance made the trip unforgettable.”</blockquote>
+              <div class="guest">
+                <span>AR</span>
+                <div>
+                  <strong>Arjun Rao</strong>
+                  <small>Family escape to New Zealand</small>
+                </div>
+              </div>
+            </article>
+            <article class="testimonial-card">
+              <div class="stars" aria-label="5 star rating">★★★★★</div>
+              <blockquote>“Our itinerary had hidden restaurants, private museum access, and beautiful hotels. It felt designed, not assembled.”</blockquote>
+              <div class="guest">
+                <span>MK</span>
+                <div>
+                  <strong>Maya Kapoor</strong>
+                  <small>Culture journey through Europe</small>
+                </div>
+              </div>
+            </article>
+          </div>
+          <button class="slider-btn slider-btn--next" type="button" aria-label="Show next testimonial">
+            <i class="fa-solid fa-chevron-right"></i>
+          </button>
+          <div class="slider-dots" aria-label="Choose testimonial"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta section" aria-labelledby="cta-title">
+      <div class="container cta__panel reveal">
+        <div>
+          <p class="eyebrow">Ready when you are</p>
+          <h2 id="cta-title">Your next journey can feel effortless from day one.</h2>
+          <p>Tell us your dates, mood, and must-haves. We will shape a premium route around the way you actually want to travel.</p>
+        </div>
+        <a class="btn btn--primary" href="#contact">Request a Custom Plan</a>
+      </div>
+    </section>
+
+    <section class="contact section" id="contact" aria-labelledby="contact-title">
+      <div class="container contact__layout">
+        <div class="contact__content reveal">
+          <p class="eyebrow">Contact</p>
+          <h2 id="contact-title">Let us design your next escape.</h2>
+          <p>Share a few details and our travel designer will respond with a thoughtful first proposal.</p>
+
+          <div class="contact-methods">
+            <a href="mailto:hello@auroratrails.example">
+              <i class="fa-solid fa-envelope"></i>
+              hello@auroratrails.example
+            </a>
+            <a href="tel:+15550188204">
+              <i class="fa-solid fa-phone"></i>
+              +1 555 018 8204
+            </a>
+            <span>
+              <i class="fa-solid fa-location-dot"></i>
+              Remote planning worldwide
+            </span>
+          </div>
+        </div>
+
+        <form class="contact-form reveal" id="trip-form">
+          <div class="form-row">
+            <label for="name">Full name</label>
+            <input type="text" id="name" name="name" placeholder="Your name" required>
+          </div>
+          <div class="form-row">
+            <label for="email">Email address</label>
+            <input type="email" id="email" name="email" placeholder="you@example.com" required>
+          </div>
+          <div class="form-row">
+            <label for="destination">Dream destination</label>
+            <select id="destination" name="destination" required>
+              <option value="">Choose a destination</option>
+              <option>Swiss Lakeside Calm</option>
+              <option>Maldives Blue Hours</option>
+              <option>Dubai After Dark</option>
+              <option>New Zealand Drives</option>
+              <option>Custom destination</option>
+            </select>
+          </div>
+          <div class="form-row">
+            <label for="message">Travel notes</label>
+            <textarea id="message" name="message" rows="4" placeholder="Dates, travelers, budget, occasion, or anything important"></textarea>
+          </div>
+          <button class="btn btn--dark" type="submit">Send Enquiry</button>
+          <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__layout">
+      <div>
+        <a class="brand brand--footer" href="#top">
+          <span class="brand__mark">A</span>
+          <span class="brand__text">Aurora Trails</span>
+        </a>
+        <p>Premium private travel planning for curious, comfort-loving explorers.</p>
+      </div>
+      <div class="footer__links">
+        <a href="#destinations">Destinations</a>
+        <a href="#packages">Packages</a>
+        <a href="#why-us">Why Us</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <div class="footer__social" aria-label="Social media links">
+        <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+        <a href="#" aria-label="Pinterest"><i class="fa-brands fa-pinterest-p"></i></a>
+      </div>
+    </div>
+    <p class="footer__bottom">© 2026 Aurora Trails. Created as an original internship landing page project.</p>
+  </footer>
+
+  <button class="back-to-top" type="button" aria-label="Back to top">
+    <i class="fa-solid fa-arrow-up"></i>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>
