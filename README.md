@@ -40,12 +40,12 @@ GitHub Pages| Deployment
 
 📂 Project Structure
 
-aurora-trails/
-index.html
-style.css
-script.js
-screenshot.png
-README.md
+- aurora-trails/
+- index.html
+- style.css
+- script.js
+- screenshot.png
+- README.md
 
 🚀 Getting Started
 
