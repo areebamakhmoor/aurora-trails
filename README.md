@@ -10,7 +10,7 @@ A premium and fully responsive travel landing page built with HTML, CSS, and Jav
 
 📸 Preview
 
-"Aurora Trails Preview" (Preview.png)
+![Aurora Trails Preview] (Preview.png)
 
 ---
 
